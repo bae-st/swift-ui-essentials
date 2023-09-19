@@ -47,6 +47,8 @@
 		948412BB2AB20FCC00E924C3 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		948412BD2AB290E200E924C3 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		948412BF2AB2C20300E924C3 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		94B454092AB875C000346915 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94B4540A2AB875C000346915 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		94C1A7272A9256C00002C355 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		94C1A7292A925A680002C355 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		94C1A72B2A925BD30002C355 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B454082AB875C000346915 /* tenniser */ = {
+			isa = PBXGroup;
+			children = (
+				94B454092AB875C000346915 /* README.md */,
+				94B4540A2AB875C000346915 /* .gitignore */,
+			);
+			path = tenniser;
+			sourceTree = "<group>";
+		};
 		94C1A7262A92569B0002C355 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +167,7 @@
 		94CA60C22A8A4DDD00D1994F /* ScrumdingerUITests */ = {
 			isa = PBXGroup;
 			children = (
+				94B454082AB875C000346915 /* tenniser */,
 				94CA60C32A8A4DDD00D1994F /* ScrumdingerUITests.swift */,
 				94CA60C52A8A4DDD00D1994F /* ScrumdingerUITestsLaunchTests.swift */,
 			);
